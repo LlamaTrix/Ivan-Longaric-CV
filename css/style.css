@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    margin-bottom: 100px;
+    background-color: rgb(44, 43, 47);
+    margin-bottom: 0px;
   }
 
   section {
@@ -29,7 +29,7 @@ body {
     background-color: #e0e0e0;
   }
 
-  div {
+  section div {
     margin: 5px auto;
     background-color: #fff;
     padding: 10px;
@@ -38,7 +38,7 @@ body {
     transition: transform 0.3s, background-color 0.3s;
   }
 
-  div:hover {
+  section div:hover {
     transform: scale(1.05);
     background-color: #fdcdcd;
   }
@@ -101,5 +101,14 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-bottom: 0;
+  }
+
+  footer p{
+    margin: 0;
+  }
+
+  .naruto img{
+    padding: 0;
+    width: 5%;
+    margin-left: 45%;
   }
